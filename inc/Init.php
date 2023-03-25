@@ -10,7 +10,8 @@ final class Init {
 		return [
 			Base\Enqueue::class,
 			Base\InitialControllers::class,
-			Controllers\AdminControllers::class
+			Controllers\AdminControllers::class,
+			Controllers\Elementor\ElementorControllers::class
 		];
 	}
 

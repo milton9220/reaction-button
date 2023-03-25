@@ -16,11 +16,13 @@ class AdminControllers{
 		);
 	}
 	public function admin_menu_callback(): void {
-		$page_title = __("Reaction Button Shortcode","reaction-plugin");
 		?>
-			<h1><?php echo esc_html($page_title); ?></h1>
+			<h2><?php esc_html_e("Reaction Button Shortcode","reaction-plugin"); ?></h2>
 			<h4><?php echo esc_html("[reaction-button]"); ?></h4>
 
+            <h2><?php esc_html_e("Reaction Button Elementor Widget","reaction-plugin"); ?></h2>
+            <h4><?php  esc_html_e("Reaction Button","reaction-plugin"); ?></h4>
+        
 			<?php
 	}
 }
