@@ -17,7 +17,7 @@ class AdminControllers{
 	}
 	public function admin_menu_callback(): void {
 		?>
-			<h2><?php esc_html_e("Reaction Button Shortcode","reaction-plugin"); ?></h2>
+			<h2><?php esc_html_e("Reaction Button ShortCode","reaction-plugin"); ?></h2>
 			<h4><?php echo esc_html("[reaction-button]"); ?></h4>
 
             <h2><?php esc_html_e("Reaction Button Elementor Widget","reaction-plugin"); ?></h2>
