@@ -1,0 +1,19 @@
+{
+    "name": "walton/reaction-button",
+    "description": "This is simple wordpress any post or page reaction plugin",
+    "type": "project",
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "Reaction\\Inc\\": "./inc"
+        }
+    },
+    "authors": [
+        {
+            "name": "Monjur Hasan Milton",
+            "email": "monjurhasan105142@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

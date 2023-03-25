@@ -1,0 +1,62 @@
+.reaction-buttons-wrapper{
+    margin: 20px 0;
+    margin-top: 80px!important;
+    display: flex;
+    position: relative;
+    gap: 20px;
+}
+.reaction-buttons-wrapper img.icon{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.reaction-buttons-wrapper .reaction-dislike,
+.reaction-buttons-wrapper .reaction-average,
+.reaction-buttons-wrapper .reaction-like{
+    position: relative;
+}
+.reaction-buttons-wrapper .reaction-dislike .count,
+.reaction-buttons-wrapper .reaction-average .count,
+.reaction-buttons-wrapper .reaction-like .count{
+    position: absolute;
+    right: -9px;
+    top: -13px;
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    background: #018000;
+    justify-content: center;
+    color: #fff;
+    border-radius: 50%;
+
+}
+.reaction-buttons-wrapper .reaction-average .count{
+    background-color: #183153;
+}
+.reaction-buttons-wrapper .reaction-dislike .count{
+    background-color: #ff2500;
+}
+
+.react-like-loader{
+    position: absolute;
+    right: -20px;
+    top: 15px;
+    display: none;
+}
+.react-dislike-loader img,
+.react-average-loader img,
+.react-like-loader img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+.react-dislike-loader,
+.react-average-loader{
+    position: absolute;
+    right: -20px;
+    top: 15px;
+    display: none;
+}
+
